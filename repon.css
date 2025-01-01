@@ -1,0 +1,49 @@
+/* pc */
+@media (min-width: 1024px) {
+
+}
+
+/* mtb */
+@media (max-width: 1023px) and (min-width: 769px) {
+
+}
+
+/* mobile */
+@media (max-width: 768px) {
+    .rhombus-img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .slider2 .rhombus:nth-child(2) {
+        width: 197px;
+        height: 177px;
+    }
+
+    .slider2 .rhombus:nth-child(1) {
+        width: 260px;
+        height: 238px;
+    }
+
+    .box-content .left {
+        display: none;
+    }
+
+    .box-content .right {
+        width: 100%;
+    }
+}
+
+
+
+/* @media screen and (max-width: 768px) {
+    .rhombus-img {
+        width: 150px;
+        height: 150px;
+    }
+} */
+
+/* màn hình 16/9  */
+/* @media (max-width: 400px ) {
+
+} */
